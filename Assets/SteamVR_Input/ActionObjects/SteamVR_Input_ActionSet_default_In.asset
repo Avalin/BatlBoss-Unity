@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04e7f4f80daf5c445ad6f22a134b780d, type: 3}
+  m_Name: SteamVR_Input_ActionSet_default_In
+  m_EditorClassIdentifier: 
+  actionSet: {fileID: 0}
+  listDirection: 0
+  actions:
+  - {fileID: 11400000, guid: fd167315bb1170f4d8c312762776c3c3, type: 2}
+  - {fileID: 11400000, guid: ac77c53be06e8064ab927e1179fb0c24, type: 2}
+  - {fileID: 11400000, guid: a471a80c4f9977b41a72910928afd17a, type: 2}
+  - {fileID: 11400000, guid: 2a67b7770c81a464d92339da9dae29a1, type: 2}
+  - {fileID: 11400000, guid: cc8afcdc207c5614e897cea5aefb911b, type: 2}
+  - {fileID: 11400000, guid: 38eb99c39b9487a48ae19f914c4229f8, type: 2}
+  - {fileID: 11400000, guid: 2de3d4aef7031c942a49a95d26214a27, type: 2}
+  - {fileID: 11400000, guid: e7464737eb00b1d4bbd29ffc18c7f473, type: 2}
+  - {fileID: 11400000, guid: b8e4903d6297ef348a8f7cb156f1c597, type: 2}
+  - {fileID: 11400000, guid: e58066f9f82da00498229545dd5ff1ef, type: 2}
+  - {fileID: 11400000, guid: 40712be87d5810e4f98303008a11e7a1, type: 2}
+  InteractUI: {fileID: 11400000, guid: fd167315bb1170f4d8c312762776c3c3, type: 2}
+  Teleport: {fileID: 11400000, guid: ac77c53be06e8064ab927e1179fb0c24, type: 2}
+  GrabPinch: {fileID: 11400000, guid: a471a80c4f9977b41a72910928afd17a, type: 2}
+  GrabGrip: {fileID: 11400000, guid: 2a67b7770c81a464d92339da9dae29a1, type: 2}
+  Pose: {fileID: 11400000, guid: cc8afcdc207c5614e897cea5aefb911b, type: 2}
+  SkeletonLeftHand: {fileID: 11400000, guid: 38eb99c39b9487a48ae19f914c4229f8, type: 2}
+  SkeletonRightHand: {fileID: 11400000, guid: 2de3d4aef7031c942a49a95d26214a27, type: 2}
+  Squeeze: {fileID: 11400000, guid: e7464737eb00b1d4bbd29ffc18c7f473, type: 2}
+  DropItem: {fileID: 11400000, guid: b8e4903d6297ef348a8f7cb156f1c597, type: 2}
+  TurnLeft: {fileID: 11400000, guid: e58066f9f82da00498229545dd5ff1ef, type: 2}
+  TurnRight: {fileID: 11400000, guid: 40712be87d5810e4f98303008a11e7a1, type: 2}

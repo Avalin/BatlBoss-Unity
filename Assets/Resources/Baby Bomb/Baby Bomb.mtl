@@ -1,0 +1,18 @@
+# MTL
+
+newmtl Right_Eye_mtl
+	map_Kd Baby Bomb_Right_Eye.tga
+
+
+newmtl Body_mtl
+	map_Kd Baby Bomb_Body.tga
+
+
+newmtl Blanket_mtl
+	map_Kd Baby Bomb_Blanket.tga
+
+
+newmtl Left_Eye_mtl
+	map_Kd Baby Bomb_Left_Eye.tga
+
+

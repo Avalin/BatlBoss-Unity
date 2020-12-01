@@ -1,0 +1,1480 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 114039005111129308}
+  - {fileID: 114156771118413138}
+  EditorEvents:
+  - {fileID: 114504543830272184}
+  - {fileID: 114297178437220460}
+  - {fileID: 114463048228127262}
+  - {fileID: 114572388217659684}
+  - {fileID: 114257588255381294}
+  - {fileID: 114253969118970972}
+  - {fileID: 114767565010512850}
+  - {fileID: 114969730353157490}
+  - {fileID: 114657643245216520}
+  - {fileID: 114441766535533026}
+  - {fileID: 114945328339701712}
+  - {fileID: 114003341034711172}
+  - {fileID: 114632848018712548}
+  - {fileID: 114569487467991132}
+  - {fileID: 114456695960076456}
+  MasterBanks:
+  - {fileID: 114628343171136520}
+  - {fileID: 114752024456662362}
+  - {fileID: 114413110912246012}
+  StringsBanks:
+  - {fileID: 114039005111129308}
+  stringsBankWriteTime: 636833437037176511
+  cacheVersion: 3
+--- !u!114 &114003341034711172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/Throw
+  guid: cfde12fd4d5e92479aa3b35b5bf7d309
+  Banks:
+  - {fileID: 114156771118413138}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &114007740182351482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/FlameWhoosh
+  guid: d50182ae6ab8664db896d4d1ee340063
+  Banks:
+  - {fileID: 114050316566721866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1100
+--- !u!114 &114022867740271826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Movement/FastWalk
+  guid: 61b5193537e78d4b8e674de782ef61df
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 440
+--- !u!114 &114030350629213794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/Charge
+  guid: d05818cf0556704f9bc52f8799a92582
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3500
+--- !u!114 &114039005111129308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: FMODProjectFiles\BattleBoss\Build\Desktop\Master Bank.strings.bank
+  lastModified: 636833437037176511
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1342
+  Exists: 1
+--- !u!114 &114040971063481260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Flame
+  guid: 9ebd7bb3a347db48af0386466d91798d
+  Banks: []
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11065
+--- !u!114 &114050316566721866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\pberl\Desktop\BatlBoss\FMODProjectFiles\BattleBoss\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636833437037086783
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 3271296
+  Exists: 1
+--- !u!114 &114089221109039568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\pberl\Desktop\BatlBoss\FMODProjectFiles\BattleBoss\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636833437037086783
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 3271296
+  Exists: 0
+--- !u!114 &114156771118413138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\pberl\Desktop\BatlBoss\FMODProjectFiles\BattleBoss\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636833437037086783
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 3271296
+  Exists: 1
+--- !u!114 &114166877949231548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Flaming Princess\Documents\UnityProjects\BatlBoss\FMODProjectFiles\BattleBoss\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636823209838599265
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2500640
+  Exists: 1
+--- !u!114 &114200833383930328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Flaming Princess\Documents\UnityProjects\BatlBoss\FMODProjectFiles\BattleBoss\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636823211051825025
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2500640
+  Exists: 0
+--- !u!114 &114208837937692830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Flame
+  guid: 9ebd7bb3a347db48af0386466d91798d
+  Banks:
+  - {fileID: 114050316566721866}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11065
+--- !u!114 &114253969118970972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/Idle
+  guid: 6e18a12686d7c044b2bed1aaa4340e37
+  Banks:
+  - {fileID: 114156771118413138}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4500
+--- !u!114 &114257588255381294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Movement/FastWalk
+  guid: 61b5193537e78d4b8e674de782ef61df
+  Banks:
+  - {fileID: 114156771118413138}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 440
+--- !u!114 &114297178437220460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Baby
+  guid: 8aec80c106c9fb438020a3cb709dad9b
+  Banks:
+  - {fileID: 114156771118413138}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &114316294908758774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Flaming Princess\Documents\UnityProjects\BatlBoss\FMODProjectFiles\BattleBoss\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636823211051825025
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2500640
+  Exists: 0
+--- !u!114 &114380778290841138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Movement/Walk
+  guid: fd44ce3156aa3d4382e19fa95be82221
+  Banks:
+  - {fileID: 114050316566721866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 440
+--- !u!114 &114388829417284908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Punch
+  guid: 7d70c399651df74dbcbd5b45bbb7ba85
+  Banks:
+  - {fileID: 114050316566721866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 410
+--- !u!114 &114413110912246012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Student\Desktop\BatlBoss\FMODProjectFiles\BattleBoss\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636823211060000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2500640
+  Exists: 0
+--- !u!114 &114423620532782098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\pberl\Desktop\BatlBoss\FMODProjectFiles\BattleBoss\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636823211060000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2500640
+  Exists: 1
+--- !u!114 &114441766535533026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Flame
+  guid: 9ebd7bb3a347db48af0386466d91798d
+  Banks:
+  - {fileID: 114156771118413138}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11065
+--- !u!114 &114456695960076456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Movement/Walk
+  guid: fd44ce3156aa3d4382e19fa95be82221
+  Banks:
+  - {fileID: 114156771118413138}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 440
+--- !u!114 &114463048228127262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/BattleMusic
+  guid: f6b843eb98d3604d98848f3c14b365c0
+  Banks:
+  - {fileID: 114156771118413138}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 149099
+--- !u!114 &114467485506196396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Explosion
+  guid: 4b0e0b136d7a4d498cc4da87cb657823
+  Banks:
+  - {fileID: 114166877949231548}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &114488495801679250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/Throw
+  guid: cfde12fd4d5e92479aa3b35b5bf7d309
+  Banks:
+  - {fileID: 114050316566721866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &114498466241431226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Idle
+  guid: 6e18a12686d7c044b2bed1aaa4340e37
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4500
+--- !u!114 &114504543830272184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Explosion
+  guid: 4b0e0b136d7a4d498cc4da87cb657823
+  Banks:
+  - {fileID: 114156771118413138}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &114518475571400190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/Die
+  guid: 7fd596ba8a873248840054abd9625a18
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4500
+--- !u!114 &114518603013251090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/PunchTalk
+  guid: aeef016f62e5de48801a6a6fc006379c
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &114529961392217622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/Idle
+  guid: 6e18a12686d7c044b2bed1aaa4340e37
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4500
+--- !u!114 &114532683535830894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: FMODProjectFiles\BattleBoss\Build\Desktop\Master Bank.strings.bank
+  lastModified: 636823209838649269
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 818
+  Exists: 1
+--- !u!114 &114546941458442974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Flaming Princess\Documents\UnityProjects\BatlBoss\FMODProjectFiles\BattleBoss\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636823211051825025
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2500640
+  Exists: 0
+--- !u!114 &114560266957316674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/PunchTalk
+  guid: aeef016f62e5de48801a6a6fc006379c
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &114566469041101286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/FlameWhoosh
+  guid: d50182ae6ab8664db896d4d1ee340063
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1100
+--- !u!114 &114569343517175998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Flaming Princess\Documents\UnityProjects\BatlBoss\FMODProjectFiles\BattleBoss\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636823211051825025
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2500640
+  Exists: 0
+--- !u!114 &114569487467991132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/FlameWhoosh
+  guid: d50182ae6ab8664db896d4d1ee340063
+  Banks:
+  - {fileID: 114156771118413138}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1100
+--- !u!114 &114572388217659684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/Hit
+  guid: 5432fcce9926a140b439feab25679175
+  Banks:
+  - {fileID: 114156771118413138}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2700
+--- !u!114 &114580840765069526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Throw
+  guid: cfde12fd4d5e92479aa3b35b5bf7d309
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &114588641922274592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/Hit
+  guid: 5432fcce9926a140b439feab25679175
+  Banks:
+  - {fileID: 114050316566721866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2700
+--- !u!114 &114590657292961538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Whoosh
+  guid: 766e0e7bbe8f8c4d80d5247bea4f2c6b
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 375
+--- !u!114 &114603124981468822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Movement/FastWalk
+  guid: 61b5193537e78d4b8e674de782ef61df
+  Banks:
+  - {fileID: 114050316566721866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 440
+--- !u!114 &114605764048140284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Baby
+  guid: 8aec80c106c9fb438020a3cb709dad9b
+  Banks:
+  - {fileID: 114166877949231548}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &114628343171136520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Flaming Princess\Documents\UnityProjects\BatlBoss\FMODProjectFiles\BattleBoss\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636823211051825025
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2500640
+  Exists: 0
+--- !u!114 &114632848018712548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/Charge
+  guid: d05818cf0556704f9bc52f8799a92582
+  Banks:
+  - {fileID: 114156771118413138}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3500
+--- !u!114 &114635388803492184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Student\Desktop\BatlBoss\FMODProjectFiles\BattleBoss\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636823211060000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2500640
+  Exists: 0
+--- !u!114 &114657643245216520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/Die
+  guid: 7fd596ba8a873248840054abd9625a18
+  Banks:
+  - {fileID: 114156771118413138}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4500
+--- !u!114 &114658056454830584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\pberl\Desktop\BatlBoss\FMODProjectFiles\BattleBoss\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636823211060000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2500640
+  Exists: 1
+--- !u!114 &114665158313658132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Flaming Princess\Documents\UnityProjects\BatlBoss\FMODProjectFiles\BattleBoss\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636823211051825025
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2500640
+  Exists: 0
+--- !u!114 &114672452846066274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Movement/Walk
+  guid: fd44ce3156aa3d4382e19fa95be82221
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 440
+--- !u!114 &114682233455959766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/Punch
+  guid: 7d70c399651df74dbcbd5b45bbb7ba85
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 410
+--- !u!114 &114691691344760894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/FastWalk
+  guid: 61b5193537e78d4b8e674de782ef61df
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 440
+--- !u!114 &114708744607943462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/Hit
+  guid: 5432fcce9926a140b439feab25679175
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2700
+--- !u!114 &114720310496499204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\pberl\Desktop\BatlBoss\FMODProjectFiles\BattleBoss\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636823211060000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2500640
+  Exists: 1
+--- !u!114 &114728292414588640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\pberl\Desktop\BatlBoss\FMODProjectFiles\BattleBoss\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636823211060000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2500640
+  Exists: 1
+--- !u!114 &114752024456662362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\pberl\Desktop\BatlBoss\FMODProjectFiles\BattleBoss\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636823211060000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2500640
+  Exists: 0
+--- !u!114 &114767565010512850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Whoosh
+  guid: 766e0e7bbe8f8c4d80d5247bea4f2c6b
+  Banks:
+  - {fileID: 114156771118413138}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 375
+--- !u!114 &114770166330184712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/Throw
+  guid: cfde12fd4d5e92479aa3b35b5bf7d309
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &114785353304423404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/PunchTalk
+  guid: aeef016f62e5de48801a6a6fc006379c
+  Banks:
+  - {fileID: 114050316566721866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &114785365217992892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/Die
+  guid: 7fd596ba8a873248840054abd9625a18
+  Banks:
+  - {fileID: 114050316566721866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4500
+--- !u!114 &114804460608027826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/BattleMusic
+  guid: f6b843eb98d3604d98848f3c14b365c0
+  Banks:
+  - {fileID: 114166877949231548}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 149099
+--- !u!114 &114866184099871146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Charge
+  guid: d05818cf0556704f9bc52f8799a92582
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3500
+--- !u!114 &114902012645308808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Die
+  guid: 7fd596ba8a873248840054abd9625a18
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4500
+--- !u!114 &114906386736810180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Whoosh
+  guid: 766e0e7bbe8f8c4d80d5247bea4f2c6b
+  Banks:
+  - {fileID: 114050316566721866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 375
+--- !u!114 &114907353752350010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/Charge
+  guid: d05818cf0556704f9bc52f8799a92582
+  Banks:
+  - {fileID: 114050316566721866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3500
+--- !u!114 &114913530080187572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Walk
+  guid: fd44ce3156aa3d4382e19fa95be82221
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 440
+--- !u!114 &114945328339701712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/PunchTalk
+  guid: aeef016f62e5de48801a6a6fc006379c
+  Banks:
+  - {fileID: 114156771118413138}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &114952010719135950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/Idle
+  guid: 6e18a12686d7c044b2bed1aaa4340e37
+  Banks:
+  - {fileID: 114050316566721866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4500
+--- !u!114 &114969730353157490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/Punch
+  guid: 7d70c399651df74dbcbd5b45bbb7ba85
+  Banks:
+  - {fileID: 114156771118413138}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 410
+--- !u!114 &114986728734516048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Abilities/Punch
+  guid: 7d70c399651df74dbcbd5b45bbb7ba85
+  Banks:
+  - {fileID: 114050316566721866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 410
