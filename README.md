@@ -1,2 +1,8 @@
-# unity_batlboss
- 
+# BatlBoss - SteamVR Project
+
+## About
+The first Unity project I have participated in, made in December 2018. The project takes account for UX, and has different vignettes for different situations.
+(Health Impact, Movement, etc.)
+
+## Usage
+Works with Unity 2018.4.29f1. FMOD project is missing, and thus sounds are not working.
